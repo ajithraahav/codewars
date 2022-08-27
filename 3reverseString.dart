@@ -10,6 +10,10 @@ String solution1(str) {
 
 solution2(str) => str.split('').reversed.join('');
 
-String solutionLocal(str) {
+String solution(str) {
   return str.split('').reversed.join(); // Fix me!
 }
+
+// void main(List<String> args) {
+//   solution('world');
+// }
